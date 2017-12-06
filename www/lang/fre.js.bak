@@ -1,0 +1,240 @@
+
+//  ________  _______          _       ____  _____   ______       _       _____   ______   
+// |_   __  ||_   __ \        / \     |_   \|_   _|.' ___  |     / \     |_   _|.' ____ \  
+//   | |_ \_|  | |__) |      / _ \      |   \ | | / .'   \_|    / _ \      | |  | (___ \_| 
+//   |  _|     |  __ /      / ___ \     | |\ \| | | |          / ___ \     | |   _.____`.  
+//  _| |_     _| |  \ \_  _/ /   \ \_  _| |_\   |_\ `.___.'\ _/ /   \ \_  _| |_ | \____) | 
+// |_____|   |____| |___||____| |____||_____|\____|`.____ .'|____| |____||_____| \______.' 
+
+
+
+var translationsFre = {
+
+// SIDEBAR LEFT 
+
+  BRAND: 'OTG',
+  BRAND_LINE: 'Sommet du Succès',
+
+  //Menu Principal
+  HOME: "Accueil",
+  TICKETS:"Acheter des billets",
+  SCHEDULE: "Programme",
+  MAP: "Où",
+  RECOGNITIONS: "Reconnaissances",
+  FAQ: "FAQ",
+  GALLERY: "Galerie",
+  CONTACT: "Nous Contacter",
+  PHOTOBOOT: "Cabine photo",
+  VIDEOS: "Vidéos",
+  FEES: "Prix",
+  CLOSE:"Fermer",
+  LUNCHBAGS: "Panier-repas",
+
+// FOOTER
+
+  COPYRIGHT:"Copyright © 2000-2017 Sommet du Succès. Tous droits réservés.",
+
+// SECTIONS
+
+  // Home
+  TAKE_PLACE: "Nouvelles",
+  COUNT_ON: "Nous comptons sur votre engagement. Les leaders naissent lors des événements !",
+  WATCH_VIDEO: "Voir vidéo",
+  NEWS_1_TITLE: "Nouveau système de traduction",
+  NEWS_1_SUBTITLE: "Bonjour à tous les participants au Sommet du Succès !", 
+  NEWS_1_BODY: "Nous avons mis en place un nouveau système de traduction que vous écouterez sur votre téléphone portable. Pensez à venir avec votre batterie bien chargée. Des 'prises d'urgence' seront mises à votre disposition pour recharger vos téléphones. Nous fournissons des écouteurs gratuits (prise classique, non compatible avec l'iPhone 7)..", 
+  NEWS_1_END: "Téléchargez l'application INTERACTIO sur Google Play ou sur l'App Store. A très bientôt à Marbella !",
+  NEWS_2_TITLE: "L'enregistrement est ouvert jusqu'à 17h00",
+  NEWS_3_TITLE: "Numéros gagnants de la tombola FFG",
+  NEWS_3_SUBTITLE: "Vérifiez si vous faites des gagnants", 
+  NEWS_3_BODY: "2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345", 
+
+
+  // Schedule
+  DAY_1: "J -1",
+  DAY_2: "Jour 1",
+  DAY_3: "Jour 2",
+  DAY_4: "Jour 3",
+  DAY_1_DAY: "Jeudi 4 mai 2017",
+  DAY_1_A_TIME: "9:00",
+  DAY_1_A_TITLE: "Ouverture des enregistrements",
+  DAY_1_B_TIME: "15:00",
+  DAY_1_B_TIME2: "18:30",
+  DAY_1_B_TITLE: "Conseil des Diamants Bleus (Niveau 0)",
+  DAY_1_C_TIME:"19:00",
+  DAY_1_C_TITLE:"OTG Cocktail des Donateurs OTG",
+  DAY_1_C_SUBTITLE_PART1: "Seulement pour les donateurs de 2016.",
+  DAY_1_C_SUBTITLE_PART2: "Vous n'êtes pas donateur ?",
+  DAY_1_C_SUBTITLE_LINK: "Cliquez ici",
+  DAY_2_DAY: "Vendredi 5 mai 2017",
+  DAY_2_A_TIME: "9:00",
+  DAY_2_A_TITLE: "Ouverture des enregistrements et de la Boutique",
+  DAY_2_B_TIME: "13:00",
+  DAY_2_B_TITLE: "Ouverture des portes",
+  DAY_2_C_TIME: "14:00",
+  DAY_2_C_TITLE: " Début de la session OTG",
+  DAY_2_E_TIME: "18:00",
+  DAY_2_E_TITLE: "Fin de la session OTG",
+  DAY_2_D_TIME: "21:30",
+  DAY_2_D_TIME2: "23:00",
+  DAY_2_D_TITLE: "Fête de Bienvenue, Plaza de la Iglesia",
+  DAY_3_DAY: "Samedi 6 mai 2017",
+  DAY_3_A_TIME: "9:00",
+  DAY_3_A_TITLE: "Ouverture des enregistrements et de la Boutique",
+  DAY_3_B_TIME: "10:00",
+  DAY_3_B_TIME2: "13:00",
+  DAY_3_B_TITLE: "Session du matin",
+  DAY_3_E_TIME: "13:00",
+  DAY_3_E_TIME2: "15:00",
+  DAY_3_E_TITLE: "Pause déjeuner",
+  DAY_3_C_TIME: "15:00",
+  DAY_3_C_TIME2: "18:00",
+  DAY_3_C_TITLE: "Session de l'après-midi",
+  DAY_3_D_TIME: "20:00",
+  DAY_3_D_TIME2: "23:00",
+  DAY_3_D_TITLE: "Soirée des Reconnaissances",
+  DAY_4_DAY: "Dimanche 7 mai 2017",
+  DAY_4_A_TIME: "9:00",
+  DAY_4_A_TITLE: "Ouverture des enregistrements et de la Boutique",
+  DAY_4_B_TIME: "10:00",
+  DAY_4_B_TIME2: "13:00",
+  DAY_4_B_TITLE: "Session du matin",
+  DAY_4_D_TIME: "13:00",
+  DAY_4_D_TIME2: "15:00",
+  DAY_4_D_TITLE: "Pause déjeuner",
+  DAY_4_C_TIME: "15:00",
+  DAY_4_C_TIME2: "17:30",
+  DAY_4_C_TITLE: "Session de l'après-midi",
+
+  //Where
+  PLACE_NAME:"Palacio de Congresos y Exposiciones Adolfo Suarez",
+  PLACE_ADDRESS:"José Meliá, 2, 29603 Marbella,",
+  PLACE_CITY:"29603 Marbella, Málaga, España",
+  WELCOME_PARTY:"Fête de Bienvenue, Plaza de la Iglesia",
+
+  //Recognitions
+  RECO_SUBTITILE: "Nous aurons une soirée extraordinaire au cours de laquelle nous reconnaîtrons les nouveaux titres et célèbrerons votre succès.",
+  ALL_PINS: "Pour tous les nouveaux titres",
+  QUALIFIED: "vous devrez être qualifiés au",
+  QUALIFIED_DATE: "plus tard le 1er avril 2017.",
+  ALL_BUT_BLUE: "Pour tous les nouveaux titres (sauf Diamant Bleu)",
+  BLUE_DIAMOND: "Diamant Bleu",
+  BLUE_QUALIFIED: "vous devrez être qualifié au",
+  BLUE_QUALIFIED_DATE: "plus tard le 1er février 2017.",
+  RUBY: "À partir de Rubis et plus",
+  RUBY_SEND_PHOTOS: "Merci d'envoyer une ou deux photos à recognition@otgwesteurope.eu",
+  RUBY_BEFORE: "avant le 5 avril 2017",
+  RUBY_PHOTO_REQ: "Vos photos devront être de la plus haute résolution possible (minimum 1024x768 pixels). Merci de vous assurer que votre photo correspond aux standards d'OTG et de Nu Skin. Votre nom et votre titre doivent être clairement indiqués",
+  RUBY_REGISTER: "Pour être certain d'être reconnu, vous devrez vous inscrire au Sommet du Succès avant le 10 février.",
+
+  //FAQ
+  FAQ_SUBTITLE: "Questions fréquentes",
+  FAQ_1: "Que va apporter le Sommet du Succès à mon business ?",
+  FAQ_2: "Pourquoi est-il important de célébrer le succès et de reconnaître le travail accompli ?",
+  FAQ_3: "à qui s'adresse le Sommet du Succès ?",
+  FAQ_4: "Qui organise le Sommet du Succès ?",
+  FAQ_5: "Qu'est-ce que l'association OTG West Europe ?",
+  FAQ_6: "Pourquoi une association à but non lucratif?",
+  FAQ_7: "Qui peut adhérer?",
+  FAQ_8: "Pourquoi devenir membre?",
+  FAQ_9: "Quelle est la politique de remboursement ?",
+  FAQ_10: "je dois faire face à un imprévu m’empêchant d’assister au Sommet du Succès. Que puis-je faire?",
+  FAQ_11: "Une fois ma demande de remboursement approuvée, combien de temps cela prendra-t-il pour que ma carte de crédit soit recréditée?",
+  FAQ_12: "Si j’annule mon billet pour le Sommet du Succès, cela annule-t-il aussi ma réservation d’hôtel?",
+  FAQ_13: "Je ne peux pas me rendre au Sommet du Succès. Puis-je transférer mon billet à quelqu’un d’autre?",
+  FAQ_14: "je ne peux pas me rendre au Sommet du Succès, puis-je transférer la somme payée pour acquérir des articles de la boutique OTG West Europe?",
+  FAQ_REPLY_1: "C'est là que vous allez comprendre le business, avoir un 'déclic'. Tant que vous n'aurez pas vécu l'esprit et l'enthousiasme des leaders, vous n'aurez pas totalement compris ce que vous avez entre les mains. Rien ne peut remplacer la puissance d'une salle remplie de plusieurs centaines de personnes impliquées travaillant ensemble vers un objectif commun.",           
+  FAQ_REPLY_2: "Pour se prendre plus au sérieux, avoir confiance en soi et se sentir légitime. Pour rendre concrète chaque étape d'apprentissage, croissance et réussite. Pour nous permettre de célébrer le succès des autres. Pour nous inspirer à aller de l'avant!",
+  FAQ_REPLY_3: "à tous les distributeurs Nu Skin qui prennent leur business au sérieux, qui veulent accélérer la construction de leur business, célébrer leur succès entre amis et s'amuser!",
+  FAQ_REPLY_4: "L'association OTG West Europe organise cet événement pour tous les membres d'OTG.",
+  FAQ_REPLY_5: "Une association à but non lucratif (loi 1/2002), créée pour être organisée de façon puissante et transparente. Notre objectif est de continuer à créer et améliorer des outils pour contribuer au développement du business de tous les distributeurs d'Europe de l'Ouest.",
+  FAQ_REPLY_6: "Pour qu'aucun profit ne puisse être perçu par un distributeur individuel. Les excédents financiers potentiels sont réinvestis dans le développement d'OTG WE.",
+  FAQ_REPLY_7: "Tous les distributeurs à condition qu'ils respectent les règles du Code de conduite d'OTG.",
+  FAQ_REPLY_8: "Pour avoir accès à tout les supports, services et événements réservés aux adhérents.",
+  FAQ_REPLY_9: "Sur le montant total de chaque billet, 50 euros sont des frais non remboursables. Les remboursements seront crédités sur la carte bancaire ayant servi à l'achat du billet. Aucun remboursement ne sera fait par virement bancaire, ils seront uniquement crédités sur la carte bancaire. Tout remboursement demandé après le 15 février 2017 sera imputé de 100€ de frais non remboursables. Aucun remboursement ne sera pris en compte après le 15 mars 2017.",
+  FAQ_REPLY_10: "Contactez OTG West Europe immédiatement par email à events@otgwesteurope.eu pour modifier votre inscription ou procéder à toute autre changement. Un certificat médical et/ou toute autre pièce justificative peuvent vous être demandés.",
+  FAQ_REPLY_11: "les remboursements sont habituellement traités sous 30 jours.",
+  FAQ_REPLY_12: "Non, annuler votre inscription au Sommet du Succès n’annule pas automatiquement votre réservation d’hôtel. Afin d’annuler votre réservation de chambre(s) d’hôtel, merci de contacter l’hôtel directement.",
+  FAQ_REPLY_13: "Les billets ne pourront être cédés/transférés qu'à un autre distributeur Nu Skin sous la responsabilité exclusive de l'acheteur. OTG ne prendra pas en charge les changements de billets et ne se tiendra pas responsable des changements réalisés.",
+  FAQ_REPLY_14: "non, vous ne pourrez pas transférer et utiliser la somme payée pour d’autres produits ou événements OTG West Europe.",
+
+  // Contact
+   CONTACT_TITLE: "Contactez OTG West Europe par email à support@otgwesteurope.eu",
+
+   //Photo
+   PHOTOBOOT_SUBTITLE: "Vous avez déjà acheté votre billet ? Partagez-le avec la communauté du Sommet du Succès",
+   STEP1_TITLE: "Prenez une photo de vous dans notre photomaton.",
+   STEP1_SUBTITLE: "Vous pouvez prendre un selfie sur le moment ou utiliser une photo dans votre téléphone.",
+   STEP2_TITLE: "Ajoutez des stickers",
+   STEP2_SUBTITLE: "Personnalisez votre photo avec les stickers de votre choix et partagez-la sur les réseaux sociaux en montrant que vous avez déjà votre billet !",
+   STEP3_TITLE: "Postez-la sur les réseaux sociaux avec #OTGMarbella2017",
+   STEP3_SUBTITLE_A: "Partagez-la sur Twitter et Instagram avec le hashtag",
+   FACEBOOK:"OTG.West.Europe.", 
+   COMPARTIERON:"Ils ont déjà posté leur photo avec",
+   HASHTAG: "#OTGMarbella2017",
+
+   // Fees
+
+   FEES_SUBTITLE_A: "Un événement de 3 jours",
+   FEES_SUBTITLE_B: "et soirée de bienvenue du vendredi inclus",
+   FEES_NOTE_A: "Prix spécial Nouveau Distributeur ",
+   FEES_NOTE_B: "Si vous êtes nouveau/nouvelle distributeur/trice Nu Skin (vous avez rejoint le business avant le 1er janvier 2017) vous pouvez bénéficier d’un billet Nouveau Distributeur tarif « Premières Réservations » à 190 Euros. ",
+   FEES_NOTE_C_1: "Merci d’envoyer un email à ",
+   FEES_NOTE_C_2: "en indiquant votre Numéro de Distributeur Nu Skin (ID), votre date d’inscription et nous vous enverrons un code spécial pour acheter votre billet pour le Sommet du Succès 2017.",
+
+   // STORE
+
+   STORE_ORDER: "Passez commande dès maintenant!",
+  
+   //Lunchbags 
+
+   LUNCHBAGS_TITULO:"Les paniers-repas du samedi et du dimanche sont désormais disponibles en prévente",
+   LUNCHBAGS_PRICE:"De € 9,00",
+   LUNCHBAGS_SUBTITULO:"Important : Sachez qu'il n'y a que très peu d'endroits pour acheter à manger autour du Palais des Congrès et que nous serons plus de 2000 personnnes à chercher à manger au même moment dans le quartier.",
+   LUNCHBAGS_NARANJA: "Les paniers-repas ne seront PAS vendus pendant l'événement car nous devons les précommander.",
+   LUNCHBAGS_NEGRITA: 'La prévente prendra fin le 23 avril à minuit.',
+   LUNCHBAGS_SUPERMARKET: "(le supermarché Open Cor qui se trouvait en face du Palais est maintenant fermé !)",
+   LUNCHBAGS_ULTIMOS: "Prévente terminée",
+
+   //dinner 
+
+   DINNER_TITULO:"Dîner d'adieu OTG Marbella 2017 FIN PRÉVENTE - VENDREDI 28 À MINUIT !",
+   DINNER_PRICE:"€ 66",
+   DINNER_SUBTITULO:"Où:Hotel Puente Romano Bulevar Principe Alfonso von Hohenlohe, s/n, 29602 Marbella, Málaga, Spain",
+   DINNER_NARANJA: "Réservez une table de 8 personnes: 528€",
+   DINNER_NEGRITA: ' ',
+
+   //power 
+
+   POWER_TITULO:"Batterie externe Force For Good",
+   POWER_PRICE:"€ 20",
+   POWER_SUBTITULO:" ",
+   POWER_NARANJA: "Prévente terminée",
+   POWER_NEGRITA: '',
+
+   //mug 
+
+   MUG_TITULO:"Mug céramique Force For Good",
+   MUG_PRICE:"€ 10",
+   MUG_SUBTITULO:" ",
+   MUG_NARANJA: "Prévente terminée",
+   MUG_NEGRITA: '',
+
+   //raffle
+
+   RAFFLE_TITULO:"Tombola ticket",
+   RAFFLE_PRICE:"€ 5",
+   RAFFLE_SUBTITULO:"Force for Good organisera sa tombola annuelle avec des prix magnifiques !",
+   RAFFLE_NARANJA: "Prévente terminée",
+   RAFFLE_NEGRITA: 'Achetez 2 tickets et repartez avec un bracelet FFG !'
+
+};
+
+
+
+
+
+
+
+
+

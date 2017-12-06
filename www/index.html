@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Success Summit 2018</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="x-ua-compatible">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Icons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <link href="css/keyframes.css" rel="stylesheet" type="text/css">
+    <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/swipebox.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body ng-app="theApp" class="ng-cloak">
+ <div id="loading" style="position: absolute; background-color:white; z-index:999;    width: 100%;    height: 100%;"></div>
+<script>
+      // localStorage.clear();
+     if (localStorage.getItem("idioma") === null) {
+        window.location = 'splash.html';
+    }
+</script> 
+    <div class="m-scene" id="main"> <!-- Main Container -->
+      <!-- Sidebars -->
+      <!-- Right Sidebar -->
+      <ul id="slide-out" class="side-nav">
+        <li class="sidenav-header">
+          <!-- Srearch bar -->
+        </li>        
+        <li id="sidebar1" class="p-20">
+          <!-- Facebook -->
+          <div class="facebook">
+            <h6 class="follow-us">Languages</h6>
+            <div class="face-notification">
+              <img src="images/britain.jpg" alt="" class="cricle">
+              <div>
+                <p id="lang-eng">English</p>
+              </div>
+            </div>
+            <div class="face-notification">
+              <img src="images/spain.jpg" alt="" class="cricle">
+              <div>
+                <p id="lang-spa">Español</p>
+              </div>
+            </div>
+            <div class="face-notification">
+              <img src="images/france.jpg" alt="" class="cricle">
+              <div>
+                <p id="lang-fre">Français</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- Left Sidebar -->
+      <ul id="slide-out-left" class="side-nav collapsible">
+        <li>
+          <div class="sidenav-header primary-color">
+            <div class="nav-avatar">
+              <img class="circle avatar" src="images/logo.png" alt="">
+              <div class="avatar-body">
+                <h3>{{ 'BRAND_LINE' | translate }}</h3>
+                <!--<p>{{ 'BRAND_LINE' | translate }}</p>-->
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html?seccion=home" class="no-child"><i class="ion-android-home"></i> {{ 'HOME' | translate }}</a></li>
+        <!--<li><a id="section-tickets" class="no-child"><i class="ion-ios-cart"></i> {{ 'TICKETS' | translate }}<span></span></a></li>-->
+        <!--<li><a id="section-store" href="index.html?seccion=store" class="no-child"><i class="ion-ios-cart"></i> Store <span></span></a></li>-->
+        <!--<li><a id="section-fees" href="index.html?seccion=fees"  class="no-child"><i class="ion-social-euro"></i> {{ 'FEES' | translate }} <span></span></a></li>
+        <li><a id="section-videos" href="index.html?seccion=videos"  class="no-child"><i class="ion-ios-videocam"></i> {{ 'VIDEOS' | translate }} <span></span></a></li>
+        <li><a id="section-photo" href="index.html?seccion=photo"  class="no-child"><i class="ion-camera"></i> {{ 'PHOTOBOOT' | translate }}<span></span></a></li>
+        <li><a id="section-schedule" href="index.html?seccion=schedule" class="no-child"><i class="ion-calendar"></i> {{ 'SCHEDULE' | translate }}<span></span></a></li>
+        <li><a id="section-map" href="index.html?seccion=map" class="no-child"><i class="ion-map"></i> {{ 'MAP' | translate }}<span></span></a></li>
+        <li><a id="section-recognitions" href="index.html?seccion=recognitions" class="no-child"><i class="ion-ribbon-a"></i> {{ 'RECOGNITIONS' | translate }}<span></span></a></li>
+        <li><a id="section-faq" href="index.html?seccion=faq" class="no-child"><i class="ion-help-circled"></i> {{ 'FAQ' | translate }} <span></span></a></li>
+        <li><a id="section-gallery" href="index.html?seccion=gallery"  class="no-child"><i class="ion-images"></i> {{ 'GALLERY' | translate }} <span></span></a></li>      
+        <li><a id="section-contact" href="index.html?seccion=contact" class="no-child"><i class="ion-email"></i> {{ 'CONTACT' | translate }}<span></span></a></li>-->
+      </ul>
+      <!-- End of Sidebars -->
+      <!-- Page Content -->
+      <div id="content">
+                <!-- Toolbar -->    
+                <div id="toolbar" class="primary-color">
+                  <div class="open-left" id="open-left" data-activates="slide-out-left">
+                    <i class="ion-android-menu"></i>
+                  </div>
+                  <span class="title">{{ 'BRAND_LINE' | translate }}</span>
+                  <div class="open-right" id="open-right" data-activates="slide-out">
+                    <i class="ion-ios-flag"></i>
+                  </div>
+                </div>
+          <div id="sections" class="ng-cloak">
+            <!-- [[ Dynamic content goes here ]] -->
+          </div>       
+      </div> <!-- End of Page Content -->
+    </div> <!-- End of Page Container -->
+          <!-- Modal Structure Bottom Sheet -->
+        <div id="modal1" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h4 id="notificacionTitulo"></h4>
+            <p id="notificacionTexto" ></p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">{{ 'CLOSE' | translate }}</a>
+          </div>
+        </div>
+        <!-- Footer -->
+    <footer class="page-footer primary-color">
+            <div class="container">
+              <div class="row">
+                <div class="col s12">                  
+                  <div class="center-align">
+                    <a onclick="mbOpenApp('https://web.facebook.com/pg/OTG.West.Europe/');"><i class="ion-social-facebook m-10 white-text"></i></a>
+                    <a onclick="mbOpenApp('https://twitter.com/otgwesteurope');"><i class="ion-social-twitter m-10 white-text"></i></a>                  
+                    <a onclick="mbOpenApp('http://tickets.otg.global/event/success-summit-2017/');"><i class="ion-android-cart m-10 white-text"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright blue darken-1">
+              <div class="container" style="font-size:8px;">
+               {{ 'COPYRIGHT' | translate }}
+              <a class="grey-text text-lighten-4 right" href="http://domo.com.ar/">by DOMO</a>
+              </div>
+            </div>
+          </footer>
+          <!-- Modal Structure Bottom Sheet 
+        <div id="modal1" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+    <script src="js/jquery-2.1.0.min.js"></script>    
+    <script src="js/angular-translate.min.js"></script>    
+    <script src="lang/eng.js"></script>
+    <script src="lang/spa.js"></script>
+    <script src="lang/fre.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>   
+    <script src="js/jquery.smoothState.min.js"></script> 
+    <script src="js/materialize.min.js"></script> 
+    <script src="js/swiper.min.js"></script>  
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/chart.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/mbsdk.js"></script>    
+    <script src="js/navigation.js"></script>
+    <script src="js/updates.js"></script>
+  </body>
+</html>
+

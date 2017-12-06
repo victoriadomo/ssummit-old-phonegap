@@ -1,0 +1,232 @@
+
+//  ________   ______   _______     _       ____  _____   ___   _____     
+// |_   __  |.' ____ \ |_   __ \   / \     |_   \|_   _|.'   `.|_   _|    
+//   | |_ \_|| (___ \_|  | |__) | / _ \      |   \ | | /  .-.  \ | |      
+//   |  _| _  _.____`.   |  ___/ / ___ \     | |\ \| | | |   | | | |   _  
+//  _| |__/ || \____) | _| |_  _/ /   \ \_  _| |_\   |_\  `-'  /_| |__/ | 
+// |________| \______.'|_____||____| |____||_____|\____|`.___.'|________| 
+
+
+var translationsSpa = {
+
+// SIDEBAR LEFT 
+
+  BRAND: 'OTG',
+  BRAND_LINE: 'Cumbre del Éxito',
+
+  //Menu Principal
+  HOME: "Inicio",
+  TICKETS:"Comprar Tickets",
+  SCHEDULE: "Programa",
+  MAP: "Dónde",
+  RECOGNITIONS: "Reconocimiento",
+  FAQ: "Preguntas Frecuentes",
+  GALLERY: "Galería",
+  CONTACT: "Contacto",
+  PHOTOBOOT: "Cabina de fotos",
+  VIDEOS: "Videos",
+  FEES: "Tarifas",
+  CLOSE:"Cerrar",
+  LUNCHBAGS: "Bolsas de PicNic",
+
+// FOOTER
+
+  COPYRIGHT:"Copyright © 2000-2017 Cumbre del éxito. Todos los derechos reservados.",
+
+// SECTIONS
+
+  // Home
+  TAKE_PLACE: "Novedades",
+  COUNT_ON: "Contamos con tu compromiso ¡Los líderes nacen en los eventos!",
+  WATCH_VIDEO: "Ver Video",
+  NEWS_1_TITLE: "Nuevo sistema de traduccion",
+  NEWS_1_SUBTITLE: "Hola a todos los participantes del Success Summit!", 
+  NEWS_1_BODY: "Este año tenemos un nuevo sistema de traducción, por el cual escucharán la traducción usando vuestro teléfono móvil. No se olviden de cargar sus teléfonos. Recibirán un auricular gratis (conexión standard, no compatible con iPhone 7). También habrá enchufes de emergencia para recargar los teléfonos.", 
+  NEWS_1_END: "Por favor descarga la app INTERACTIO desde Google Play o desde el App Store. Nos vemos en Marbella!",
+  NEWS_2_TITLE: "El registro ya esta abierto hasta las 5PM",
+  NEWS_3_TITLE: "Numeros ganadores de la rifa FFG",
+  NEWS_3_SUBTITLE: "Verifica si sos uno de los ganadores", 
+  NEWS_3_BODY: "2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345", 
+
+
+  // Schedule
+  DAY_1: "Día previo",
+  DAY_2: "Día 1",
+  DAY_3: "Día 2",
+  DAY_4: "Día 3",
+  DAY_1_DAY: "Jueves 4 de Mayo de 2017",
+  DAY_1_A_TIME: "9:00",
+  DAY_1_A_TITLE: "Apertura de registro",
+  DAY_1_B_TIME: "15:00",
+  DAY_1_B_TIME2: "18:30",
+  DAY_1_B_TITLE: "Reunión del Consejo Diamantes Azules (Nivel 0)",
+  DAY_1_C_TIME:"19:00",
+  DAY_1_C_TITLE:"Cóctel de Colaboradores de OTG",
+  DAY_1_C_SUBTITLE_PART1: "Sólo para Colaboradores de 2016.",
+  DAY_1_C_SUBTITLE_PART2: "No eres colaborador?",
+  DAY_1_C_SUBTITLE_LINK: "Click aquí​",
+  DAY_2_DAY: "Viernes 5 de Mayo de 2017",
+  DAY_2_A_TIME: "9:00",
+  DAY_2_A_TITLE: "Apertura de Registro y Tienda",
+  DAY_2_B_TIME: "13:00",
+  DAY_2_B_TITLE: "Apertura de puertas",
+  DAY_2_C_TIME: "14:00",
+  DAY_2_C_TITLE: "Sesión inaugural OTG",
+  DAY_2_E_TIME: "18:00",
+  DAY_2_E_TITLE: "Fin sesión inaugural OTG",
+  DAY_2_D_TIME: "21:30",
+  DAY_2_D_TIME2: "23:00",
+  DAY_2_D_TITLE: "Fiesta de Bienvenida en la Plaza de la Iglesia",
+  DAY_3_DAY: "Sábado 6 de Mayo de 2017",
+  DAY_3_A_TIME: "9:00",
+  DAY_3_A_TITLE: "Apertura de Registro y Tienda",
+  DAY_3_B_TIME: "10:00",
+  DAY_3_B_TIME2: "13:00",
+  DAY_3_B_TITLE: "Sesión matinal",
+  DAY_3_E_TIME: "13:00",
+  DAY_3_E_TIME2: "15:00",
+  DAY_3_E_TITLE: "Almuerzo",
+  DAY_3_C_TIME: "15:00",
+  DAY_3_C_TIME2: "18:00",
+  DAY_3_C_TITLE: "Sesión de tarde ",
+  DAY_3_D_TIME: "20:00",
+  DAY_3_D_TIME2: "23:00",
+  DAY_3_D_TITLE: "Noche de Reconocimiento",
+  DAY_4_DAY: "Domingo 7 de Mayo de 2017",
+  DAY_4_A_TIME: "9:00",
+  DAY_4_A_TITLE: "Apertura de Registro y Tienda",
+  DAY_4_B_TIME: "10:00",
+  DAY_4_B_TIME2: "13:00",
+  DAY_4_B_TITLE: "Sesión matinal",
+  DAY_4_D_TIME: "13:00",
+  DAY_4_D_TIME2: "15:00",
+  DAY_4_D_TITLE: "Almuerzo",
+  DAY_4_C_TIME: "15:00",
+  DAY_4_C_TIME2: "17:30",
+  DAY_4_C_TITLE: "Sesión de tarde",
+
+  //Where
+  PLACE_NAME:"Palacio de Congresos y Exposiciones Adolfo Suarez",
+  PLACE_ADDRESS:"José Meliá, 2, 29603 Marbella,",
+  PLACE_CITY:"29603 Marbella, Málaga, España",
+  WELCOME_PARTY:"Fiesta de Bienvenida en la Plaza de la Iglesia",
+
+  //Recognitions
+  RECO_SUBTITILE: "Tendremos una noche increíble en la que se reconocerán nuevos Títulos Pin y celebraremos tu éxito.",
+  ALL_PINS: "Todos los Títulos Pin",
+  QUALIFIED: "Tienes que haber calificado ",
+  QUALIFIED_DATE: "antes del 1 de abril de 2017",
+  ALL_BUT_BLUE: "Todos los Títulos Pin menos Diamante Azul",
+  BLUE_DIAMOND: "Diamante Azul",
+  BLUE_QUALIFIED: "Tienes que haber calificado",
+  BLUE_QUALIFIED_DATE: "antes del 1 de febrero de 2017",
+  RUBY: "De Rubí en adelante",
+  RUBY_SEND_PHOTOS: "Envía una o dos fotos a recognition@otgwesteurope.eu",
+  RUBY_BEFORE: "Antes del 5 de Abril de 2017",
+  RUBY_PHOTO_REQ: "Requisitos que deben cumplir las fotos: deberán ser de alta resolución. Minimo 1024x768 pixels. Por favor, asegúrate de que tus fotos representan los estándares de OTG y Nu Skin. Tu nombre y Título Pin deben quedar claramente establecidos.",
+  RUBY_REGISTER: "Si quieres estar seguro de que se te reconozca tu título, debes estar registrado para la Cumbre del Éxito antes del 10 de Febrero",
+
+  //FAQ
+  FAQ_SUBTITLE: "Preguntas Frecuentes",
+  FAQ_1: "¿Qué puede hacer la Cumbre del éxito por mi negocio?",
+  FAQ_2: "¿Por qué es tan importante celebrar el éxito y aplaudir nuestro trabajo duro?",
+  FAQ_3: "¿Para quién es la Cumbre del Éxito?",
+  FAQ_4: "¿Quién organiza la Cumbre del Éxito?",
+  FAQ_5: "¿ Qué es la Asociación OTG West Europe?",
+  FAQ_6: "¿Por qué una asociación sin ánimo de lucro?",
+  FAQ_7: "¿Quién se puede unir?",
+  FAQ_8: "¿Por qué asociarse?",
+  FAQ_9: "¿Cuál es la política de reembolsos?",
+  FAQ_10: "Me ha surgido un imprevisto que me impide atender la Cumbre del Éxito. ¿Qué puedo hacer?",
+  FAQ_11: "¿Cuánto tiempo tardará en constar el reembolso en mi cuenta si es aprobado?",
+  FAQ_12: "Si cancelo mi ticket para la Cumbre del Éxito, también cancela la reserva de mi hotel?",
+  FAQ_13: "No puedo atender la Cumbre del Éxito. Puedo transferir mi ticket a otra persona?",
+  FAQ_14: "No puedo asistir a la Cumbre del Éxito, pero puedo usar el importe pagado por productos de la tienda OTG West Europe?",
+  FAQ_REPLY_1: "Es el lugar en el cual entiendes el negocio. Hasta que no hayas sentido el espiritu y entusiasmo de los líderes, no habrás entendido por completo lo que tienes entre tus manos. No hay nada que pueda reemplazar el poder de una sala llena de cientos de mentes comprometidas, trabajando juntas hacia una misma meta.",           
+  FAQ_REPLY_2: "Nos ayuda a tomarnos más en serio y a desarrollar la confianza y orgullo de un modo positivo. Nos da pruebas de que estamos aprendiendo, creciendo y teniendo éxito. Nos da la oportunidad de celebrar con otras personas el éxito. Nos inspira a seguir hacia adelante!",
+  FAQ_REPLY_3: "Para todos los distribuidores de Nu Skin que se tomen en serio su negocio y quieran acelerar el crecimiento de su negocio, celebrar con los amigos y divertirse!",
+  FAQ_REPLY_4: "La organiza la Asociación OTG West Europe para todos los miembros de OTG.",
+  FAQ_REPLY_5: "Una asociación sin ánimo de lucro (Ley 1/2002) poderosa y transparente. Nuestro deseo es continuar desarrollando herramientas nuevas y mejores para todos los distribuidores que desarrollan negocio en Europa Occidental.",
+  FAQ_REPLY_6: "Porque el dinero no va a ir al bolsillo de distribuidores o personas. El excedente potencial se reinvierte en el desarrollo de OTG WE.",
+  FAQ_REPLY_7: "Todos los distribuidores pueden participar siempre y cuando respeten el Código de Conducta de OTG",
+  FAQ_REPLY_8: "Todo el material, servicios y eventos son exclusivos para los socios",
+  FAQ_REPLY_9: "Por cada ticket pagado al completo, 50 euros del importe total no son reembolsables. Los reembolsos serán procesados usando el número de la tarjeta de crédito usada para realizar el pago. Los reembolsos no serán procesados por transferencia bancaria, sólo por tarjeta de crédito. Las peticiones de reembolso posteriores al 15 de Febrero de 2017, tendrán un coste no reembolsable de 100 euros. Ningún reembolso será considerado después del 15 de Marzo de 2017.",
+  FAQ_REPLY_10: "Si tus circunstancias cambian, por favor ponte en contacto con OTG West Europe inmediatamente vía e-mail: events@otgwesteurope.eu, para poder modificar tu registro o requerimientos asociados. Un certificado médico y/o justificante escrito puede ser requerido.",
+  FAQ_REPLY_11: "Los reembolsos normalmente son procesados en menos de 30 días.",
+  FAQ_REPLY_12: "No, la cancelación de tu registro no cancela tu reserva de hotel automáticamente. Para cancelar tu habitación o habitaciones, por favor contacta con el hotel directamente.",
+  FAQ_REPLY_13: "Los ticket podrán ser cedidos/transferidos unicamente a otro distribuidor de Nu Skin bajo exclusiva responsabilidad del comprador. OTG no gestionará los cambios de tickets ni se responsabiliza de los cambios realizados.",
+  FAQ_REPLY_14: "No, no podrás transferir o aplicar ninguna suma pagada a ningún evento o producto de OTG West Europe.",
+
+  // Contact
+   CONTACT_TITLE: "Ponte en contacto con OTG West Europe via email support@otgwesteurope.eu",
+
+   //Photo
+   PHOTOBOOT_SUBTITLE: "Ya compraste tu ticket? Compártelo con la comunidad de la Cumbre del Éxito",
+   STEP1_TITLE: "Hazte una foto en la cabina de fotos",
+   STEP1_SUBTITLE: "Puedes hacerte una en el momento o usar una que ya tengas en tu móvil.",
+   STEP2_TITLE: "Agrega pegatinas",
+   STEP2_SUBTITLE: "Personaliza tu foto agregando las pegatinas que desees para compartir en las redes sociales mostrando que ya tienes tu entrada!",
+   STEP3_TITLE: "Súbelo a las redes sociales con #OTGMarbella2017",
+   STEP3_SUBTITLE_A: "Compártelo en Twitter e Instagram con el hashtag",
+   FACEBOOK:"OTG.West.Europe.", 
+   COMPARTIERON:"Ellos ya subieron su foto con",
+   HASHTAG: "#OTGMarbella2017",
+
+   // Fees
+
+   FEES_SUBTITLE_A: "3 días de eventos por",
+   FEES_SUBTITLE_B: "para traducción y fiesta de bienvenida el viernes incluida",
+   FEES_NOTE_A: "Precio especial Nuevo Distribuidor",
+   FEES_NOTE_B: "Si eres un nuevo distribuidor (que hayas comenzado tu negocio a partir del 1/1/2017) tienes la opción de obtener una entrada al precio especial de 190 Euros.",
+   FEES_NOTE_C_1: "Por favor envía un correo electrónico a ",
+   FEES_NOTE_C_2: "indicando tu nuevo número ID de Nu Skin y la fecha de inicio, y te enviaremos un código especial para que puedas comprar tu entrada.",
+
+   // STORE
+
+   STORE_ORDER: "Haz tu pedido ahora mismo!",
+
+   //Lunchbags 
+
+   LUNCHBAGS_TITULO:"Ya está abierta la Pre venta de bolsas de PicNic para Sábado y Domingo",
+   LUNCHBAGS_PRICE:"Desde € 9,00",
+   LUNCHBAGS_SUBTITULO:"Importante: Por favor tened en cuenta que hay muy pocos lugares para comprar almuerzo alrededor del Palacio de Congresos y que habrá más de 2000 personas intentando comprar al mismo tiempo.",
+   LUNCHBAGS_NARANJA: "Las bolsas de PicNic NO estarán en venta durante el evento, ya que tenemos que ordenarlas con anticipación",
+   LUNCHBAGS_NEGRITA: 'La pre venta se cierra el 23 de Abril a medianoche.',
+   LUNCHBAGS_SUPERMARKET: "(el supermercado Open Cor que estaba en frente a Palacio está cerrado !)",
+   LUNCHBAGS_ULTIMOS: "Fin preventa",
+
+   //dinner 
+
+   DINNER_TITULO:"Cena de despedida OTG Marbella 2017 FIN PRE VENTA - VIERNES 28 A MEDIANOCHE!",
+   DINNER_PRICE:"€ 66",
+   DINNER_SUBTITULO:"Donde:Puente Romano Hotel Marbella Bulevar Principe Alfonso von Hohenlohe, s/n, 29602 Marbella, Málaga, Spain",
+   DINNER_NARANJA: "Compra una mesa para 8 personas: 528€",
+   DINNER_NEGRITA: ' ',
+
+   //power 
+
+   POWER_TITULO:"Batería externa de Force for Good",
+   POWER_PRICE:"€ 20",
+   POWER_SUBTITULO:" ",
+   POWER_NARANJA: "Fin preventa",
+   POWER_NEGRITA: '',
+
+   //mug 
+
+   MUG_TITULO:"Taza cerámica de Force for Good",
+   MUG_PRICE:"€ 10",
+   MUG_SUBTITULO:" ",
+   MUG_NARANJA: "Fin preventa",
+   MUG_NEGRITA: '',
+
+   //raffle
+
+   RAFFLE_TITULO:"Rifas",
+   RAFFLE_PRICE:"€ 5",
+   RAFFLE_SUBTITULO:"Force for Good tendrá su rifa anual con premios increíbles!",
+   RAFFLE_NARANJA: "Fin preventa",
+   RAFFLE_NEGRITA: 'Si compras 2 rifas obtendrás además una pulsera de FFG',
+
+   // VIDEO
+
+};

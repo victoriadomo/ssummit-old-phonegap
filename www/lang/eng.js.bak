@@ -1,0 +1,238 @@
+
+//  ________  ____  _____   ______  _____     _____   ______   ____  ____  
+// |_   __  ||_   \|_   _|.' ___  ||_   _|   |_   _|.' ____ \ |_   ||   _| 
+//   | |_ \_|  |   \ | | / .'   \_|  | |       | |  | (___ \_|  | |__| |   
+//   |  _| _   | |\ \| | | |   ____  | |   _   | |   _.____`.   |  __  |   
+//  _| |__/ | _| |_\   |_\ `.___]  |_| |__/ | _| |_ | \____) | _| |  | |_  
+// |________||_____|\____|`._____.'|________||_____| \______.'|____||____| 
+//
+
+
+var translationsEN = {
+
+// SIDEBAR LEFT 
+
+  BRAND: 'OTG',
+  BRAND_LINE: 'Success Summit',
+
+  //Menu Principal
+  HOME: "Home",
+  TICKETS:"Buy Tickets",
+  SCHEDULE: "Schedule",
+  MAP: "Where",
+  RECOGNITIONS: "Recognitions",
+  FAQ: "FAQ",
+  GALLERY: "Gallery",
+  CONTACT: "Contact Us",
+  PHOTOBOOT: "Photo Booth",
+  VIDEOS: "Videos",
+  FEES: "Fees",
+  CLOSE:"Close",
+  LUNCHBAGS: "Lunch bags",
+
+// FOOTER
+
+  COPYRIGHT:"Copyright © 2000-2017 Success summit. All Rights reserved.",
+
+// SECTIONS
+
+  // Home
+  TAKE_PLACE: "News",
+  COUNT_ON: "We count on your commitment! Leaders are born at events!",
+  WATCH_VIDEO: "Watch Video",  
+  NEWS_1_TITLE: "New translation system",
+  NEWS_1_SUBTITLE: "Hello everybody attending Success Summit!", 
+  NEWS_1_BODY: "We will have a new translation system where you will listen through your phone. Please bring your battery fully charged. You will get a free headset (standard plug, not suitable for Iphone 7) There will also be 'emergency plugs' so you can recharge your phones.", 
+  NEWS_1_END: "Download the app INTERACTIO from Google Play or App Store. See you in Marbella !",
+  NEWS_2_TITLE: "Registration is now open until 5PM",
+  NEWS_3_TITLE: "Winning numbers for the FFG raffle",
+  NEWS_3_SUBTITLE: "Check if you are one of the winners!", 
+  NEWS_3_BODY: "2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345 - 2345", 
+
+
+  // Schedule
+  DAY_1: "Day before",
+  DAY_2: "Day 1",
+  DAY_3: "Day 2",
+  DAY_4: "Day 3",
+  DAY_1_DAY: "Thursday, May 4, 2017",
+  DAY_1_A_TIME: "9:00",
+  DAY_1_A_TITLE: "Registration Opens",
+  DAY_1_B_TIME: "15:00",
+  DAY_1_B_TIME2: "18:30",
+  DAY_1_B_TITLE: "Blue Diamond Council (Level 0)",
+  DAY_1_C_TIME:"19:00",
+  DAY_1_C_TITLE:"OTG Contributors Cocktail",
+  DAY_1_C_SUBTITLE_PART1: "Only for 2016 Contributors.",
+  DAY_1_C_SUBTITLE_PART2: "Not a contributor yet?",
+  DAY_1_C_SUBTITLE_LINK: "Click here",
+  DAY_2_DAY: "Friday, May 5, 2017",
+  DAY_2_A_TIME: "9:00",
+  DAY_2_A_TITLE: "Registration and Store open",
+  DAY_2_B_TIME: "13:00",
+  DAY_2_B_TITLE: "Doors open",
+  DAY_2_C_TIME: "14:00",
+  DAY_2_C_TITLE: "Opening Session OTG",
+  DAY_2_E_TIME: "18:00",
+  DAY_2_E_TITLE: "End of Session",
+  DAY_2_D_TIME: "21:30",
+  DAY_2_D_TIME2: "23:00",
+  DAY_2_D_TITLE: "Welcome Party at Plaza de la Iglesia",
+  DAY_3_DAY: "Saturday, May 6, 2017",
+  DAY_3_A_TIME: "9:00",
+  DAY_3_A_TITLE: "Registration and Store open",
+  DAY_3_B_TIME: "10:00",
+  DAY_3_B_TIME2: "13:00",
+  DAY_3_B_TITLE: "Morning Session",
+  DAY_3_E_TIME: "13:00",
+  DAY_3_E_TIME2: "15:00",
+  DAY_3_E_TITLE: "Lunch break",
+  DAY_3_C_TIME: "15:00",
+  DAY_3_C_TIME2: "18:00",
+  DAY_3_C_TITLE: "Afternoon session",
+  DAY_3_D_TIME: "20:00",
+  DAY_3_D_TIME2: "23:00",
+  DAY_3_D_TITLE: "Recognition Evening",
+  DAY_4_DAY: "Sunday, May 7, 2017",
+  DAY_4_A_TIME: "9:00",
+  DAY_4_A_TITLE: "Registration and Store open",
+  DAY_4_B_TIME: "10:00",
+  DAY_4_B_TIME2: "13:00",
+  DAY_4_B_TITLE: "Morning Session",
+  DAY_4_D_TIME: "13:00",
+  DAY_4_D_TIME2: "15:00",
+  DAY_4_D_TITLE: "Lunch break",
+  DAY_4_C_TIME: "15:00",
+  DAY_4_C_TIME2: "17:30",
+  DAY_4_C_TITLE: "Afternoon session",
+
+  //Where
+  PLACE_NAME:"Palacio de Congresos y Exposiciones Adolfo Suarez",
+  PLACE_ADDRESS:"José Meliá, 2, 29603 Marbella,",
+  PLACE_CITY:"29603 Marbella, Málaga, España",
+  WELCOME_PARTY:"Welcome Party at Plaza de la Iglesia",
+
+  //Recognitions
+  RECO_SUBTITILE: "We will have an amazing evening where new Pin Titles will be recognized and we will celebrate your success.",
+  ALL_PINS: "All Pin Titles",
+  QUALIFIED: "You have to be qualified",
+  QUALIFIED_DATE: "within April 1st., 2017",
+  ALL_BUT_BLUE: "All Pin Titles Except Blue Diamond",
+  BLUE_DIAMOND: "Blue Diamond",
+  BLUE_QUALIFIED: "You have to be qualified",
+  BLUE_QUALIFIED_DATE: "within February 1st., 2017",
+  RUBY: "From Ruby and up",
+  RUBY_SEND_PHOTOS: "Send one or two photos to recognition@otgwesteurope.eu",
+  RUBY_BEFORE: "Before April 5, 2017",
+  RUBY_PHOTO_REQ: "Photos requirements: As high resolution as possible. Minimum 1024x768 pixels. Please make sure that your photos represent OTG as well as Nu Skin standards. Your name and pin title must be clearly stated",
+  RUBY_REGISTER: "If you want to be sure that you will be recognized, you must be registered for Success Summit before February 10th.",
+
+  //FAQ
+  FAQ_SUBTITLE: "Questions & Answers",
+  FAQ_1: "What will Success Summit do for my business?",
+  FAQ_2: "Why is it so important to celebrate success and applaud our hard work?",
+  FAQ_3: "For whom is Success Summit ?",
+  FAQ_4: "Who organizes Success Summit?",
+  FAQ_5: "What is Association OTG West Europe?",
+  FAQ_6: "Why a non-profit association?",
+  FAQ_7: "Who can join the Association?",
+  FAQ_8: "Why become a member?",
+  FAQ_9: "What is the refund policy?",
+  FAQ_10: "I am faced with an unforeseen event which prevents me from attending the Success Summit. What can I do?",
+  FAQ_11: "How long does it take to credit my account with the refund if it is approved?",
+  FAQ_12: "If I cancel my ticket to the Success Summit, does it also cancel my hotel reservation?",
+  FAQ_13: "I am not able to attend the Success Summit. Can I transfer the ticket to someone else?",
+  FAQ_14: "I can't make it to the Success Summit, can I apply the purchased amount toward items from the OTG West Europe Store?",
+  FAQ_REPLY_1: "This is where you understand or 'get' the business. Until you have experienced the spirit and enthusiasm of the leaders, you have not fully understand what you have in your hands. There is nothing that can replace the power of a room filled with several hundred of committed minds, working together towards a common goal.                ",
+  FAQ_REPLY_2: "It helps us take ourselves more seriously and develop confidence and healthy pride. It gives us proof that we are learning, growing and succeeding. It gives us the opportunity to celebrate other people's success. It inspires us to keep going!               ",
+  FAQ_REPLY_3: "For all Nu Skin distributors that take their business seriously and want to speed up their business building, celebrate with friends and have fun!              ",
+  FAQ_REPLY_4: "The Association OTG West Europe organizes this event for all OTG members.               ",
+  FAQ_REPLY_5: "It is a Non-profit association – Law 1/2002, created to be organized in a powerful and transparent way. Our aim is to continue developing new and better tools for all distributors doing business in West Europe.                 ",
+  FAQ_REPLY_6: "Because no money will go into the pocket of any individual distributor. The potential surplus is re-invested in the development of OTG WE.                 ",
+  FAQ_REPLY_7: "All distributors can participate as long as they abide by the OTG Code of Conduct.                  ",
+  FAQ_REPLY_8: "All the material, services and events are for members only.                ",
+  FAQ_REPLY_9: "For any ticket paid in full, 50 Euros of the total amount paid is non-refundable fee. Refunds will be processed using the credit card number that was used for payment. Refunds will not be processed by bank transfer, only to credit cards.Refunds requested after February 15, 2017 will have 100 Euros as non-refundable fee. No refund shall be considered after 15 April 2017.               ",
+  FAQ_REPLY_10: "If your circumstances change please contact OTG West Europe immediately via email events@otgwesteurope.eu to possibly amend your registration or associated requirements. A medical certificate and/or other written justification might be requested.                   ",
+  FAQ_REPLY_11: "Refunds are normally processed within 30 days. ",
+  FAQ_REPLY_12: "No, cancelling your registration does not automatically cancel your hotel reservation. To cancel your hotel room(s), please contact the hotel directly.",
+  FAQ_REPLY_13: "Tickets can only be transfered to another Nu Skin distributor under exclusive responsibility of the buyer. OTG will not handle ticket changes or take any responsibility for them.                                           ",
+  FAQ_REPLY_14: "No, you will not be able to transfer and apply any amount paid to any OTG West Europe products or event.",
+
+  // Contact
+   CONTACT_TITLE: "Contact OTG West Europe via email support@otgwesteurope.eu",
+
+   //Photo
+   PHOTOBOOT_SUBTITLE: "Have you bought your tickets yet? Share it with the Success Summit community",
+   STEP1_TITLE: "Take a photo of you in the photo booth",
+   STEP1_SUBTITLE: "You can take a selfie now or use a photo in your mobile.",
+   STEP2_TITLE: "Add stickers",
+   STEP2_SUBTITLE: "Personalize your photo adding stickers of your choice and share it on Social Media showing that you already have your ticket!",
+   STEP3_TITLE: "Post it on Social Media using #OTGMarbella2017",
+   STEP3_SUBTITLE_A: "Share it on Twitter and Instagram with the hashtag",
+   FACEBOOK:"OTG.West.Europe.", 
+   COMPARTIERON:"They've already posted their photo with",
+   HASHTAG: "#OTGMarbella2017",
+
+   // Fees
+
+   FEES_SUBTITLE_A: "3 days event",
+   FEES_SUBTITLE_B: "and Friday welcome party included!",
+   FEES_NOTE_A: "New distributor special price ",
+   FEES_NOTE_B: "If you are a new distributor (joined the business after Jan 1st, 2017) you have the option of a New Distributor ticket at 190 Euros.",
+   FEES_NOTE_C_1: "Please send an email to ",
+   FEES_NOTE_C_2: "indicating your Nu Skin ID and date of registration, and we will send you a special code to buy your ticket to Success Summit 2017.",
+
+   // STORE
+
+   STORE_ORDER: "Order now!",
+
+   //Lunchbags 
+   LUNCHBAGS_TITULO:"Pre sale of lunch bags for Saturday and Sunday is open",
+   LUNCHBAGS_PRICE:"From € 9,00",
+   LUNCHBAGS_SUBTITULO:"Important: Please bear in mind that there are few places to buy lunch around the venue, and that there will be over 2000 people looking for lunch at the same time in the neighborhood.",
+   LUNCHBAGS_NARANJA: "Lunch bags will NOT be sold during the event as we must pre order them.",
+   LUNCHBAGS_NEGRITA: 'Pre sale will close on April 23, midnight.',
+   LUNCHBAGS_SUPERMARKET: "(the supermarket that used to be right in front of the venue is now closed!)",
+   LUNCHBAGS_ULTIMOS: "Pre sale ended",
+
+   //dinner 
+
+   DINNER_TITULO:"OTG Farewell Dinner Marbella 2017 PRE SALES ENDS FRIDAY 28 - MIDNIGHT !",
+   DINNER_PRICE:"€ 66",
+   DINNER_SUBTITULO:"Where:Puente Romano Hotel Marbella Bulevar Principe Alfonso von Hohenlohe, s/n, 29602 Marbella, Málaga, Spain",
+   DINNER_NARANJA: "Buy a table for 8 persons :   € 528",
+   DINNER_NEGRITA: ' ',
+
+   //power 
+
+   POWER_TITULO:"Force for good Power bank",
+   POWER_PRICE:"€ 20",
+   POWER_SUBTITULO:" ",
+   POWER_NARANJA: "Pre sale ended",
+   POWER_NEGRITA: '',
+
+   //mug 
+
+   MUG_TITULO:"Force for good Ceramic Mug",
+   MUG_PRICE:"€ 10",
+   MUG_SUBTITULO:" ",
+   MUG_NARANJA: "Pre sale ended",
+   MUG_NEGRITA: '',
+
+   //raffle
+
+   RAFFLE_TITULO:"Raffle ticket",
+   RAFFLE_PRICE:"€ 5",
+   RAFFLE_SUBTITULO:"Force for Good will have its yearly raffle with amazing prizes!",
+   RAFFLE_NARANJA: "Pre sale ended",
+   RAFFLE_NEGRITA: 'If you buy 2 raffle tickets you will get a FFG bracelet !'
+   
+};
+
+
+
+    
+
+                    
+
+                        
